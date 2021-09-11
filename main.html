@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Dongsung fintec</title>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="./assets/css/common.css">
 
 </head>
@@ -15,82 +16,10 @@
 .BagroundImg2{
     display: none;}
 
-.ImgPopupdiv1{
-    position :absolute;
-    top: 550px;
-    left: 270px;}
 
-.ImgPopupdiv2{
-    position :absolute;
-    top: 330px;
-    left: 540px;}
-
-.ImgPopupdiv3{
-    position :absolute;
-    top: 550px;
-    left: 650px;}
-
-.ImgPopupdiv4{
-    position :absolute;
-    top: 440px;
-    Right: 220px;}
-
-.ImgPopupdiv5{
-    position :absolute;
-    top: 500px;
-    Right: 100px;}
-
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
 
 #myImg:hover {opacity: 0.7;}
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
 
 @-webkit-keyframes zoom {
   from {-webkit-transform:scale(0)}
@@ -102,7 +31,7 @@
   to {transform:scale(1)}
 }
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script>
       window.onload = function () {
                   $('.BagroundImg').fadeOut(3000)
