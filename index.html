@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dongsung fintec</title>
+    <title>Welcome to Dongsung fintec</title>
     <link rel="stylesheet" href="./assets/css/common.css">
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
 </head>
@@ -138,9 +138,6 @@
                 $('.BagroundImg2').fadeIn(3000)
     }
 
-
-
-
 </script>
 
 <body>
@@ -155,20 +152,20 @@
   <image class='BagroundImg2'  source src="https://raw.githubusercontent.com/heather-0/ds/main/02-1.jpg">
 
   <!--이게 클릭하는 이미지 name에 클릭시 띄울 이미지 경로 넣고 위치 조정하기.-->
-  <div class='ImgPopupdiv1'>
-  <img id="myImg" name="https://github.com/heather-0/ds/blob/main/pop05_no96.jpg?raw=true" class="size" size="100%" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="NO96" style="width:100%;max-width:300px"></div>
+  <a class='ImgPopupdiv1' href="https://heather-0.github.io/ds/sub_no96">
+    <img id="myImg" name="no96" href="https://heather-0.github.io/ds/sub_no96" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="NO96" style="width:100%;max-width:300px"></a>
 
-  <div class='ImgPopupdiv2'>
-  <img id="myImg" name="https://github.com/heather-0/ds/blob/main/pop02_pipe.jpg?raw=true" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="pipe" style="width:100%;max-width:300px"></div>
+  <a class='ImgPopupdiv2' href="https://heather-0.github.io/ds/sub_pipe">
+    <img id="myImg" name="pipe" href="https://heather-0.github.io/ds/sub_pipe" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="pipe" style="width:100%;max-width:300px"></a>
 
-  <div class='ImgPopupdiv3'>
-  <img id="myImg" name="https://github.com/heather-0/ds/blob/main/pop01_mark.jpg?raw=true" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="mark" style="width:100%;max-width:300px"></div>
+  <a class='ImgPopupdiv3' href="https://heather-0.github.io/ds/sub_mark">
+    <img id="myImg" name="mark" href="https://heather-0.github.io/ds/sub_mark" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="mark" style="width:100%;max-width:300px"></a>
 
-  <div class='ImgPopupdiv4'>
-  <img id="myImg" name="https://github.com/heather-0/ds/blob/main/pop04_ccs.jpg?raw=true" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="ccs" style="width:100%;max-width:300px"></div>
+  <a class='ImgPopupdiv4' href="https://heather-0.github.io/ds/sub_ccs">
+    <img id="myImg" name="ccs" href="https://heather-0.github.io/ds/sub_ccs" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="ccs" style="width:100%;max-width:300px"></a>
 
-  <div class='ImgPopupdiv5'>
-  <img id="myImg" name="https://github.com/heather-0/ds/blob/main/pop03_mbtype.jpg?raw=true" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="mb" style="width:100%;max-width:300px"></div>
+  <a class='ImgPopupdiv5' href="https://heather-0.github.io/ds/sub_mbtype">
+    <img id="myImg" name ="mbtype" href="https://heather-0.github.io/ds/sub_mbtype" class="size" src="https://lh3.google.com/u/0/d/1wVvw-Uc9Af65jaNKhEfYLnDSuQLw7neT=w924-h906-iv1" alt="mb" style="width:100%;max-width:300px"></a>
 
 
                     <!-- The Modal 이건 건드리지 말기-->
@@ -185,29 +182,6 @@
 
 </body>
 
-<script>
-//함수 앵간하면 건들지 말기
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.name; // 이미지 경로 수정해서 원하는 이미지 띄우기
-  captionText.innerHTML = "";
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-</script>
 
 
 </html>
