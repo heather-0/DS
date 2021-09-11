@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCTAP2021</title>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/jquery.rwdImageMaps.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="container mobile">
+            <img src="./assets/images/mobile_bg.png" alt="TCTAP2021 background" usemap="#imgmapTCTAPM">
+            <map id="imgmapTCTAPM" name="imgmapTCTAPM">
+                <area shape="rect" alt="" title="5 TCTAP2021 academy video" coords="382,166,739,344" id="video_area_m"/>
+            </map>
+
+            <div class="link_box">
+                <div class="link_blue">
+                    <a href="https://www.summit-tctap.com/2021/program_live.php" target="_blank" title="라이브 채널 선택 페이지로 이동">CONFERENCE HALL</a>
+                    <a href="https://www.summit-tctap.com/2021/sponsor_list.php" target="_blank" title="Virtual Booth 페이지로 이동">EXHIBITION HALL</a>
+                    <a href="https://www.summit-tctap.com/eposter/eposter_abstract_list_2017.php?iid=40" target="_blank" title="E-Science Station 페이지로 이동">E-SCIENCE STATION</a>
+                    <a href="https://www.summit-tctap.com/2021/program_list_training.php" target="_blank" title="Training Center VOD 페이지로 이동">TRAINING CENTER</a>
+                </div>
+                <div class="link_red">
+                    <ul class="clear">
+                        <li><a href="https://www.summit-tctap.com/2021/program_glance.html" target="_blank" title="Meeting at a Glance 페이지로 이동">PROGRAM</a></li>
+                        <li><a href="https://www.summit-tctap.com/2021/news_list.php" target="_blank" title="Daily News 페이지로 이동">DAILY NEWS</a></li>
+                        <li><a href="https://www.summit-tctap.com/2021/register_registration.php" target="_blank" title="등록 페이지로 이동">REGISTRATION</a></li>
+                        <li><a href="https://www.summit-tctap.com/2021/about_faq.html" target="_blank" title="FAQ 페이지로 이동">INFORMATION</a></li>
+                    </ul>
+                </div>
+                <div class="logo_box clear">
+                    <div class="abbott"></div>
+                    <div class="medtronic"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 영상 팝업 -->
+        <div class="modal_wrap video_modal mobile">
+            <div class="modal_header">
+                <button class="modal_x close_modal"></button>
+            </div>
+            <div class="modal_section">
+                <iframe id="videoPop" src="https://www.youtube.com/embed/tCyUB9poFso?autoplay=1&mute=1&playlist=tCyUB9poFso&loop=1" title='video player' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- // 영상 팝업 -->
+
+    </div>
+
+    <script src="./assets/js/common.js"></script>
+</body>
+</html>
